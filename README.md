@@ -1,12 +1,12 @@
-# Multi::Dates::Picker::Rails
+# MultiDatesPicker::Rails
 
-TODO: Write a gem description
+Rails gem for MultiDatesPicker (http://multidatespickr.sourceforge.net/)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'multi-dates-picker-rails'
+    gem 'multiple-dates-picker-rails'
 
 And then execute:
 
@@ -14,11 +14,19 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install multi-dates-picker-rails
+    $ gem install multiple-dates-picker-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+You must already have jquery-ui installed.
+
+Then add this to your application.js:
+
+    //= require jquery-ui.multidatespicker
+
+And activate it like this:
+
+    $("#dates_field").multiDatesPicker()
 
 ## Contributing
 
