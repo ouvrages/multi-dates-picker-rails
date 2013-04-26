@@ -6,11 +6,11 @@ require 'multi-dates-picker-rails/version'
 Gem::Specification.new do |gem|
   gem.name          = "multi-dates-picker-rails"
   gem.version       = Multi::Dates::Picker::Rails::VERSION
-  gem.authors       = ["Michael Witrant"]
-  gem.email         = ["michael@ouvrages-web.fr"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.authors       = ["Ouvrages"]
+  gem.email         = ["contact@ouvrages-web.fr"]
+  gem.description   = "MultiDatesPicker for Rails"
+  gem.summary       = "Multiple dates picker ready to be added to a Rails application"
+  gem.homepage      = "https://github.com/ouvrages/multi-dates-picker-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
