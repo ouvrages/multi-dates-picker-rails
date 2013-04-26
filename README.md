@@ -24,6 +24,10 @@ Then add this to your application.js:
 
     //= require jquery-ui.multidatespicker
 
+And this to your application.css:
+
+    *= require mdp.css
+
 And activate it like this:
 
     $("#dates_field").multiDatesPicker()
