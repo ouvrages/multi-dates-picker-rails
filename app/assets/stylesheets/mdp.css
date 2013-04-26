@@ -3,7 +3,7 @@
 /* just some styling */
 body {
 	font: 0.7em/1.5em "Trebuchet MS",Verdana,sans-serif;
-	background: white url('images/ui-bg_fine-grain_65_654b24_60x60.png') repeat;
+	background: white image-url('ui-bg_fine-grain_65_654b24_60x60.png') repeat;
 }
 
 h1 {
@@ -45,7 +45,7 @@ a:hover {text-decoration: underline;}
 	margin: 1em auto;
 	padding: 2em;
 	width: 960px;
-	background: white url('images/ui-bg_fine-grain_10_f8f7f6_60x60.png') repeat;
+	background: white image-url('ui-bg_fine-grain_10_f8f7f6_60x60.png') repeat;
 	
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
@@ -105,7 +105,7 @@ a:hover {text-decoration: underline;}
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-	background: #F8F7F6 url('images/ui-bg_fine-grain_10_f8f7f6_60x60.png') 50% 50% repeat;
+	background: #F8F7F6 image-url('ui-bg_fine-grain_10_f8f7f6_60x60.png') 50% 50% repeat;
 }
 
 /* begin: jQuery UI Datepicker moving pixels fix */
