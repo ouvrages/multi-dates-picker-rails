@@ -6,7 +6,7 @@ Rails gem for MultiDatesPicker (http://multidatespickr.sourceforge.net/)
 
 Add this line to your application's Gemfile:
 
-    gem 'multiple-dates-picker-rails'
+    gem 'multi-dates-picker-rails'
 
 And then execute:
 
